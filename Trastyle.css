@@ -1,0 +1,112 @@
+
+.navbar-brand{
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.navbar-brand span{ 
+	color: orangered;
+}
+
+.btn{
+	background-color: orangered;
+	color: black;
+}
+
+
+/*poster start*/
+ 
+ .oma{
+ 	 	background-image:  url('travelmg/mountain.jpg'); 
+ 	 	background-position: -20px;
+ 	 	background-repeat: no-repeat; 
+ 	 	background-size: conver; 
+ }
+ .poster{ 
+   
+ 	height: 90vh; 
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	padding-top: 150px;
+ 	color: white;
+ }
+
+
+.textChange::after{
+  content: '';
+  color: red;
+  font-weight: 900;
+  animation: changeT 10s infinite linear;
+  transition: all ease-in;
+}
+ 
+
+ @keyframes changeT{
+ 	0%{content:"France";}
+ 	10%{content:"kashmir";}
+ 	20%{content:"hinganghat";}
+ 	30%{content:"nagpur";}
+ 	40%{content:"kerala";}
+ 	50%{content:"germany";}
+ 	60%{content:"poland";}
+ 	70%{content:"itly";}
+ 	80%{content:"africs";}
+ 	90%{content:"scoty";}
+ 	100%{content:"bhi";}
+ }
+ 
+
+
+/*book section*/
+.bookRow span{
+ color: orangered;
+}
+
+.texRes{
+	resize: none;
+	height: 140px;
+}
+.block{
+	box-shadow: 0px 2px 5px black;
+}
+
+
+/*packages section*/
+
+.carder img{
+   height: 200px;
+}
+
+.packRow span{
+	color: orangered;
+}
+
+/*service section*/
+
+.jiki{
+	font-size: 70px;
+	text-align: center;
+}
+.carder{
+	padding: 20px !important;
+	color: orangered;
+}
+
+
+/*footer*/
+
+.icons i{ 
+	font-size: 20px;
+	color: white;
+}
+.icons div{
+	height: 35px;
+	width: 35px;
+	border-radius: 3px;
+	background-color: black;
+	margin-right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
